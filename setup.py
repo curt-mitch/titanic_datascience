@@ -24,4 +24,7 @@ setup(
     author_email='curtis.l.mitchell@gmail.com',
     license='MIT',
     packages=['titanic'],
+    install_requires=[
+      	'pypandoc>=1.4'
+    ]
 )
